@@ -7,7 +7,7 @@ Es una medida de cuantificación para evaluar una señal deseada comparando el r
 En este caso para la señal requerida, en la señal EMG el SNR es un parámetro que determina la calidad de esta y su utilidad para un analisis adecuado biomecánico y clínico. Un SNR alto indica una señal clara con poca interferenciay un SNR bajo sugiere que el ruido afecta los datos señalados.
 
 Para calcular el SNR debe compararse la intensidad de la señal con el ruido de fondo, la formula para hallar este valor que se presenta en (dB) es la siguiente:
-![image](https://github.com/user-attachments/assets/46d4cdff-f816-4780-b637-de251b41f5a1)
+![image]([https://github.com/felipeacosta-m/ECG-SNR/blob/6fe0585ca09709cf383ca494d2e0e66398b0d00a/SNR.png))
  
  *Formula para calcular SNR (Relación Señal Ruido)*
  
@@ -26,7 +26,7 @@ Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia 
 Se agregan estos tres tipos de ruidos a la señal EMG con diferentes amplitudes cada uno, es decir por cada ruido una onda grande y una mas pequeña. 
 
 En el primer caso se agrega el ruido gaussiano y con cada amplitud se obtienen valores de SNR:
-![image](https://github.com/user-attachments/assets/3ef0a4f7-c747-4257-ae5a-d149658f392e)
+![image](https://github.com/felipeacosta-m/ECG-SNR/blob/6fe0585ca09709cf383ca494d2e0e66398b0d00a/Ruido%20gauss.png)
 
 *Ruido Gaussiano con Amplitud Grande y Pequeña*
 
